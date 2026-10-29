@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adam Beránek | Aspiring QA Automation Engineer</title>
+  <meta name="description" content="Portfolio of Adam Beránek - Aspiring QA Automation Engineer specializing in Python, Playwright, pytest, and robust E2E test architectures.">
+  <meta name="author" content="Adam Beránek">
+  <meta name="theme-color" content="#090d16">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Adam Beránek | QA Automation Engineer Portfolio">
+  <meta property="og:description" content="Building robust E2E testing frameworks using Python and Playwright. Focused on writing clean, scalable, and maintainable automated tests.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Background Glow & Grid -->
+  <div class="bg-grid-pattern" aria-hidden="true"></div>
+  <div class="bg-radial-glow" aria-hidden="true"></div>
+
+  <!-- Main Navigation Bar -->
+  <header class="site-header">
+    <div class="header-inner container">
+      <a href="#hero" class="brand-link" aria-label="Adam Beránek Home">
+        <span class="prompt-prefix">❯</span>
+        <span class="brand-text">adam.beranek<span class="cursor-blink">_</span></span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#tech-stack" class="nav-link"><span class="nav-index">01.</span> Stack</a></li>
+          <li><a href="#projects" class="nav-link"><span class="nav-index">02.</span> Projects</a></li>
+          <li><a href="#contact" class="nav-link"><span class="nav-index">03.</span> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://github.com/Ad4mB3" target="_blank" rel="noopener noreferrer" class="btn-github-nav" aria-label="GitHub Profile">
+          <svg class="svg-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          <span class="nav-gh-text">Ad4mB3</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- SECTION 1: HERO SECTION -->
+    <section id="hero" class="hero-section container">
+      <div class="hero-content">
+        <!-- Status Badge -->
+        <div class="status-pill" role="status">
+          <span class="status-indicator">
+            <span class="ping-circle"></span>
+            <span class="static-circle"></span>
+          </span>
+          <span class="status-text">Available for Junior QA Opportunities</span>
+        </div>
+
+        <!-- Terminal Sub-Headline -->
+        <div class="terminal-tag font-mono">
+          <span class="term-cyan">def</span> <span class="term-yellow">role</span>() -&gt; <span class="term-green">"QA Automation Engineer"</span>:
+        </div>
+
+        <!-- Main Name & Title -->
+        <h1 class="hero-name">Adam Beránek</h1>
+        <h2 class="hero-headline">Aspiring QA Automation Engineer</h2>
+
+        <!-- Bio -->
+        <p class="hero-bio">
+          Building robust E2E testing frameworks using Python and Playwright. Focused on writing clean, scalable, and maintainable automated tests.
+        </p>
+
+        <!-- CTA Action Buttons -->
+        <div class="hero-cta-group">
+          <a href="#contact" class="btn btn-primary">
+            <svg class="svg-btn-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+            <span>Get in Touch</span>
+          </a>
+
+          <a href="#projects" class="btn btn-secondary">
+            <svg class="svg-btn-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M16 18l6-6-6-6"></path>
+              <path d="M8 6l-6 6 6 6"></path>
+            </svg>
+            <span>View Featured Project</span>
+          </a>
+
+          <a href="https://github.com/Ad4mB3" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" aria-label="Visit Adam's GitHub Profile">
+            <svg class="svg-btn-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Interactive Terminal Card -->
+      <div class="hero-terminal-card" role="region" aria-label="Automated Test Runner Preview">
+        <div class="terminal-bar">
+          <div class="terminal-dots" aria-hidden="true">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <div class="terminal-title font-mono">pytest — adam@archlinux: ~/sauce-demo-playwright-automation</div>
+          <button id="run-tests-btn" class="terminal-run-action font-mono" title="Click to re-run automated test suite">
+            <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <span>Run Suite</span>
+          </button>
+        </div>
+        <div class="terminal-body font-mono" id="terminal-screen" tabindex="0">
+          <div class="term-line"><span class="term-prompt">$</span> <span class="term-command">pytest tests/ -v --browser=chromium</span></div>
+          <div class="term-line term-muted">platform linux -- Python 3.14.7, pytest-8.3.3, playwright-1.48.0</div>
+          <div class="term-line term-muted">rootdir: /home/adam/sauce-demo-playwright-automation</div>
+          <div class="term-line term-muted">plugins: playwright, xdist, html</div>
+          <div class="term-line term-space"></div>
+          <div class="term-line term-test-pass"><span class="term-check">✓</span> tests/test_login.py::test_sucesful_login <span class="term-badge-pass">PASSED</span> <span class="term-percent">[ 25%]</span></div>
+          <div class="term-line term-test-pass"><span class="term-check">✓</span> tests/test_login.py::test_unsucesful_login <span class="term-badge-pass">PASSED</span> <span class="term-percent">[ 50%]</span></div>
+          <div class="term-line term-test-pass"><span class="term-check">✓</span> tests/test_homepage.py::test_add_to_cart_dynamic <span class="term-badge-pass">PASSED</span> <span class="term-percent">[ 75%]</span></div>
+          <div class="term-line term-test-pass"><span class="term-check">✓</span> tests/test_checkout_page.py::test_full_checkout <span class="term-badge-pass">PASSED</span> <span class="term-percent">[100%]</span></div>
+          <div class="term-line term-space"></div>
+          <div class="term-line term-summary"><span class="term-summary-text">======== <span class="term-green font-bold">4 passed</span> in 1.42s (Playwright Chromium) ========</span></div>
+        </div>
+        <div class="terminal-footer font-mono">
+          <span class="term-subtle">Exit code: 0</span>
+          <span class="term-subtle">Status: All assertions verified</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: TECH STACK -->
+    <section id="tech-stack" class="section container">
+      <div class="section-header">
+        <div class="section-eyebrow font-mono">
+          <span class="section-num">01.</span> CORE COMPETENCIES
+        </div>
+        <h3 class="section-title">Tech Stack &amp; QA Tooling</h3>
+        <p class="section-description">
+          Specialized in modern test automation technologies, clean object-oriented architecture, and test design methodologies.
+        </p>
+      </div>
+
+      <div class="tech-grid" role="list">
+        <!-- Python -->
+        <div class="tech-card" role="listitem">
+          <div class="tech-card-header">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M11.914 0C5.82 0 6.2 2.64 6.2 2.64l.006 2.74h5.814v.825H3.94s-3.94.444-3.94 6.223c0 5.78 3.443 5.992 3.443 5.992h2.056v-2.883s-.112-3.443 3.39-3.443h5.803v-.868s.5-5.992-5.778-5.992zm-2.02 1.832a.987.987 0 1 1 0 1.975.987.987 0 0 1 0-1.975zM12.086 24c6.094 0 5.714-2.64 5.714-2.64l-.006-2.74H11.98v-.825h8.08s3.94-.444 3.94-6.223c0-5.78-3.443-5.992-3.443-5.992h-2.056v2.883s.112 3.443-3.39 3.443H9.318v.868s-.5 5.992 5.778 5.992zm2.02-1.832a.987.987 0 1 1 0-1.975.987.987 0 0 1 0 1.975z"/>
+              </svg>
+            </div>
+            <span class="tech-type-tag font-mono">Language</span>
+          </div>
+          <div class="tech-card-body">
+            <h4 class="tech-title">Python</h4>
+            <p class="tech-desc">Core language for developing modular, readable, and object-oriented test automation suites.</p>
+          </div>
+          <div class="tech-card-footer font-mono">
+            <span class="tech-pill">OOP</span>
+            <span class="tech-pill">Scripting</span>
+            <span class="tech-pill">Type Hints</span>
+          </div>
+        </div>
+
+        <!-- Playwright -->
+        <div class="tech-card" role="listitem">
+          <div class="tech-card-header">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <span class="tech-type-tag font-mono">E2E Engine</span>
+          </div>
+          <div class="tech-card-body">
+            <h4 class="tech-title">Playwright</h4>
+            <p class="tech-desc">Modern web testing framework with reliable auto-wait, resilient locators, and headless execution.</p>
+          </div>
+          <div class="tech-card-footer font-mono">
+            <span class="tech-pill">Sync API</span>
+            <span class="tech-pill">Cross-Browser</span>
+            <span class="tech-pill">Auto-wait</span>
+          </div>
+        </div>
+
+        <!-- pytest -->
+        <div class="tech-card" role="listitem">
+          <div class="tech-card-header">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 11l3 3L22 4"></path>
+                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+              </svg>
+            </div>
+            <span class="tech-type-tag font-mono">Test Framework</span>
+          </div>
+          <div class="tech-card-body">
+            <h4 class="tech-title">pytest</h4>
+            <p class="tech-desc">Robust test runner leveraging powerful fixtures, parametrization, markers, and HTML reporting.</p>
+          </div>
+          <div class="tech-card-footer font-mono">
+            <span class="tech-pill">Fixtures</span>
+            <span class="tech-pill">Parametrize</span>
+            <span class="tech-pill">Assertions</span>
+          </div>
+        </div>
+
+        <!-- Page Object Model (POM) -->
+        <div class="tech-card" role="listitem">
+          <div class="tech-card-header">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="3" y1="9" x2="21" y2="9"></line>
+                <line x1="9" y1="21" x2="9" y2="9"></line>
+              </svg>
+            </div>
+            <span class="tech-type-tag font-mono">Design Pattern</span>
+          </div>
+          <div class="tech-card-body">
+            <h4 class="tech-title">Page Object Model (POM)</h4>
+            <p class="tech-desc">Architectural pattern decoupling test execution from UI locators, maximizing code reuse and maintenance.</p>
+          </div>
+          <div class="tech-card-footer font-mono">
+            <span class="tech-pill">Separation of Concerns</span>
+            <span class="tech-pill">DRY</span>
+          </div>
+        </div>
+
+        <!-- ISTQB -->
+        <div class="tech-card" role="listitem">
+          <div class="tech-card-header">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+            </div>
+            <span class="tech-type-tag font-mono">QA Methodology</span>
+          </div>
+          <div class="tech-card-body">
+            <h4 class="tech-title">ISTQB</h4>
+            <p class="tech-desc">Solid grounding in fundamental testing principles, boundary value analysis, equivalence partitioning, and defect lifecycles.</p>
+          </div>
+          <div class="tech-card-footer font-mono">
+            <span class="tech-pill">Test Design</span>
+            <span class="tech-pill">BVA &amp; EP</span>
+            <span class="tech-pill">Regression</span>
+          </div>
+        </div>
+
+        <!-- Git -->
+        <div class="tech-card" role="listitem">
+          <div class="tech-card-header">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M23.546 10.93L13.067.452a1.503 1.503 0 0 0-2.128 0L8.835 2.556l3.05 3.05a1.777 1.777 0 0 1 2.247 2.259l3.003 3.003a1.777 1.777 0 0 1 1.637 2.805 1.782 1.782 0 0 1-2.483-2.478l-2.92-2.92v6.623a1.78 1.78 0 0 1 1.054 1.635 1.78 1.78 0 1 1-3.559 0c0-.663.364-1.24.902-1.551v-6.72a1.78 1.78 0 0 1-.902-.27l-3.03 3.03a1.782 1.782 0 1 1-2.13-2.13l3.062-3.062-2.83-2.83-6.42 6.42a1.503 1.503 0 0 0 0 2.128l10.48 10.48a1.503 1.503 0 0 0 2.127 0l10.48-10.48a1.503 1.503 0 0 0 0-2.128z"/>
+              </svg>
+            </div>
+            <span class="tech-type-tag font-mono">Version Control</span>
+          </div>
+          <div class="tech-card-body">
+            <h4 class="tech-title">Git</h4>
+            <p class="tech-desc">Branching workflows, version control discipline, and CI/CD automated pipeline integration via GitHub Actions.</p>
+          </div>
+          <div class="tech-card-footer font-mono">
+            <span class="tech-pill">CI/CD Workflows</span>
+            <span class="tech-pill">GitHub Actions</span>
+          </div>
+        </div>
+
+        <!-- Linux (Arch) -->
+        <div class="tech-card tech-card-highlight" role="listitem">
+          <div class="tech-card-header">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M12.001 0c-.57 0-1.127.22-1.545.617L.55 10.05a2.155 2.155 0 0 0 0 3.072l9.906 9.433c.418.398.975.618 1.545.618s1.127-.22 1.546-.618l9.905-9.433a2.155 2.155 0 0 0 0-3.072L13.547.617A2.128 2.128 0 0 0 12.001 0zm-.001 4.586l6.39 6.086-6.39 6.086-6.39-6.086 6.39-6.086z"/>
+              </svg>
+            </div>
+            <span class="tech-type-tag font-mono">Environment</span>
+          </div>
+          <div class="tech-card-body">
+            <h4 class="tech-title">Linux (Arch)</h4>
+            <p class="tech-desc">Comfortable in terminal environments, shell automation, package managers, and debugging headless test execution.</p>
+          </div>
+          <div class="tech-card-footer font-mono">
+            <span class="tech-pill">Bash / Zsh</span>
+            <span class="tech-pill">CLI Tooling</span>
+            <span class="tech-pill">Arch Linux</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: FEATURED PROJECT -->
+    <section id="projects" class="section container">
+      <div class="section-header">
+        <div class="section-eyebrow font-mono">
+          <span class="section-num">02.</span> AUTOMATION SHOWCASE
+        </div>
+        <h3 class="section-title">Featured Project</h3>
+        <p class="section-description">
+          A production-grade demonstration of end-to-end testing practices and clean architecture.
+        </p>
+      </div>
+
+      <article class="project-card" aria-labelledby="project-title">
+        <div class="project-header">
+          <div class="project-meta-badges">
+            <span class="badge badge-featured font-mono">FEATURED PROJECT</span>
+            <span class="badge badge-e2e font-mono">E2E TESTING FRAMEWORK</span>
+          </div>
+          <h4 id="project-title" class="project-title">SauceDemo Playwright Automation</h4>
+          <p class="project-description">
+            An automated E2E testing framework for a demo e-commerce platform. Built with Python, Playwright, and pytest utilizing the Page Object Model (POM), dynamic locators, and test parametrizations.
+          </p>
+        </div>
+
+        <!-- Project Highlights Grid -->
+        <div class="project-specs-grid">
+          <div class="spec-item">
+            <span class="spec-label font-mono">// ARCHITECTURE</span>
+            <span class="spec-value">Page Object Model (POM)</span>
+            <span class="spec-sub">Independent classes for LoginPage, HomePage &amp; CheckoutPage</span>
+          </div>
+          <div class="spec-item">
+            <span class="spec-label font-mono">// LOCATOR STRATEGY</span>
+            <span class="spec-value">Dynamic Locators</span>
+            <span class="spec-sub">Python f-strings for parameterized item selection &amp; cart management</span>
+          </div>
+          <div class="spec-item">
+            <span class="spec-label font-mono">// CONTINUOUS INTEGRATION</span>
+            <span class="spec-value">GitHub Actions CI</span>
+            <span class="spec-sub">Automated regression test runs triggered on every git push</span>
+          </div>
+          <div class="spec-item">
+            <span class="spec-label font-mono">// TEST SUITE COVERAGE</span>
+            <span class="spec-value">Core E-Shop Workflows</span>
+            <span class="spec-sub">Auth validations, dynamic cart manipulations &amp; checkout flows</span>
+          </div>
+        </div>
+
+        <!-- Interactive Code & Structure Viewer -->
+        <div class="project-code-viewer" role="region" aria-label="Interactive Code Viewer">
+          <div class="code-viewer-header">
+            <div class="code-tabs" role="tablist" aria-label="Code Snippets">
+              <button class="code-tab active font-mono" role="tab" aria-selected="true" data-tab="test-spec">
+                <span class="tab-indicator">●</span> test_login.py
+              </button>
+              <button class="code-tab font-mono" role="tab" aria-selected="false" data-tab="page-object">
+                <span class="tab-indicator">●</span> Log_in_page.py (POM)
+              </button>
+              <button class="code-tab font-mono" role="tab" aria-selected="false" data-tab="ci-pipeline">
+                <span class="tab-indicator">●</span> ci-workflow.yml
+              </button>
+            </div>
+            <div class="code-viewer-meta font-mono">
+              <span class="badge-lang">Python 3</span>
+            </div>
+          </div>
+
+          <!-- Tab 1: test_login.py -->
+          <div class="code-tab-content active" id="tab-test-spec" role="tabpanel">
+            <pre class="code-block font-mono"><code><span class="code-kw">from</span> playwright.sync_api <span class="code-kw">import</span> Page, expect
+<span class="code-kw">from</span> Log_in_page <span class="code-kw">import</span> Loginpage
+
+<span class="code-kw">def</span> <span class="code-fn">test_sucesful_login</span>(page: Page):
+    <span class="code-str">"""Test successful user login &amp; inventory redirection."""</span>
+    page.goto(<span class="code-str">"https://www.saucedemo.com/"</span>)
+    login_page = Loginpage(page)
+
+    <span class="code-comment"># Perform login and assert target inventory route</span>
+    login_page.login(<span class="code-str">"standard_user"</span>, <span class="code-str">"secret_sauce"</span>)
+    expect(page).to_have_url(<span class="code-str">"https://www.saucedemo.com/inventory.html"</span>)
+
+<span class="code-kw">def</span> <span class="code-fn">test_unsucesful_login</span>(page: Page):
+    <span class="code-str">"""Assert error banner appearance on invalid credentials."""</span>
+    page.goto(<span class="code-str">"https://www.saucedemo.com/"</span>)
+    login_page = Loginpage(page)
+    login_page.login(<span class="code-str">"nobody"</span>, <span class="code-str">"123"</span>)
+    
+    <span class="code-comment"># Assertion via encapsulated POM locator</span>
+    expect(login_page.login_error()).to_be_visible()</code></pre>
+          </div>
+
+          <!-- Tab 2: Log_in_page.py -->
+          <div class="code-tab-content" id="tab-page-object" role="tabpanel" hidden>
+            <pre class="code-block font-mono"><code><span class="code-kw">from</span> playwright.sync_api <span class="code-kw">import</span> Page
+
+<span class="code-kw">class</span> <span class="code-class">Loginpage</span>:
+    <span class="code-str">"""Page Object Model encapsulating the SauceDemo authentication page."""</span>
+    <span class="code-kw">def</span> <span class="code-fn">__init__</span>(self, page: Page):
+        self.page = page
+        self.username_input = page.locator(<span class="code-str">"#user-name"</span>)
+        self.password_input = page.locator(<span class="code-str">"#password"</span>)
+        self.loginbutton = page.locator(<span class="code-str">"#login-button"</span>)
+        self.loginerrorbttn = page.locator(<span class="code-str">"[data-test='error']"</span>)
+
+    <span class="code-kw">def</span> <span class="code-fn">login</span>(self, jmeno: <span class="code-builtin">str</span>, heslo: <span class="code-builtin">str</span>):
+        <span class="code-comment"># Reusable atomic action</span>
+        self.username_input.fill(jmeno)
+        self.password_input.fill(heslo)
+        self.loginbutton.click()
+
+    <span class="code-kw">def</span> <span class="code-fn">login_error</span>(self):
+        <span class="code-kw">return</span> self.loginerrorbttn</code></pre>
+          </div>
+
+          <!-- Tab 3: CI Pipeline -->
+          <div class="code-tab-content" id="tab-ci-pipeline" role="tabpanel" hidden>
+            <pre class="code-block font-mono"><code><span class="code-comment"># .github/workflows/playwright-tests.yml</span>
+<span class="code-kw">name</span>: Playwright Regression Suite
+<span class="code-kw">on</span>: [push, pull_request]
+
+<span class="code-kw">jobs</span>:
+  <span class="code-fn">test</span>:
+    <span class="code-kw">runs-on</span>: ubuntu-latest
+    <span class="code-kw">steps</span>:
+      - <span class="code-kw">uses</span>: actions/checkout@v4
+      - <span class="code-kw">uses</span>: actions/setup-python@v5
+        <span class="code-kw">with</span>:
+          python-version: <span class="code-str">"3.12"</span>
+      - <span class="code-kw">run</span>: pip install -r requirements.txt
+      - <span class="code-kw">run</span>: playwright install --with-deps chromium
+      - <span class="code-kw">name</span>: Execute Pytest Suite
+        <span class="code-kw">run</span>: pytest -v --browser=chromium</code></pre>
+          </div>
+        </div>
+
+        <!-- Action Link Button -->
+        <div class="project-actions">
+          <a href="https://github.com/Ad4mB3/sauce-demo-playwright-automation" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
+            <svg class="svg-btn-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            <span>View Source on GitHub</span>
+            <svg class="svg-btn-arrow" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <!-- SECTION 4: CONTACT / FOOTER -->
+    <section id="contact" class="section container">
+      <div class="contact-box">
+        <div class="contact-header">
+          <div class="terminal-tag font-mono">
+            <span class="term-cyan">const</span> <span class="term-yellow">status</span> = <span class="term-green">"actively_interviewing"</span>;
+          </div>
+          <h3 class="contact-title">Interested in hiring a Junior QA Engineer?</h3>
+          <p class="contact-subtitle">
+            I am actively seeking Junior QA Automation and Software Testing opportunities. I bring hands-on experience building Playwright &amp; Python automation suites, strong adherence to clean design patterns, and an ISTQB-grounded quality mindset.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <!-- Get in Touch Mailto Button -->
+          <a href="mailto:adamberanek.qa@gmail.com?subject=Junior%20QA%20Automation%20Opportunity%20-%20Adam%20Ber%C3%A1nek" class="btn btn-primary btn-large" id="get-in-touch-btn">
+            <svg class="svg-btn-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>Get in Touch</span>
+          </a>
+
+          <!-- GitHub Profile Button -->
+          <a href="https://github.com/Ad4mB3" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-large">
+            <svg class="svg-btn-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            <span>github.com/Ad4mB3</span>
+            <svg class="svg-btn-arrow" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+
+          <!-- Quick Copy Email Button -->
+          <button class="btn btn-ghost btn-copy-email font-mono" id="copy-email-btn" data-email="adamberanek.qa@gmail.com" title="Copy email address to clipboard">
+            <svg class="svg-btn-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span id="copy-text">Copy Email</span>
+          </button>
+        </div>
+
+        <!-- Terminal Diagnostic Footer -->
+        <div class="contact-terminal-meta font-mono" aria-hidden="true">
+          <span class="meta-item"><span class="meta-dot"></span> role: Junior QA Automation Engineer</span>
+          <span class="meta-item"><span class="meta-dot"></span> framework: Python + Playwright</span>
+          <span class="meta-item"><span class="meta-dot"></span> os: Linux (Arch)</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner container font-mono">
+      <div class="footer-left">
+        <span>&copy; <span id="current-year">2026</span> Adam Beránek</span>
+        <span class="footer-sep">/</span>
+        <span class="footer-subtle">Engineered for clean tests &amp; high reliability</span>
+      </div>
+      <div class="footer-right">
+        <a href="https://github.com/Ad4mB3" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+        <a href="https://github.com/Ad4mB3/sauce-demo-playwright-automation" target="_blank" rel="noopener noreferrer" class="footer-link">SauceDemo Project</a>
+        <a href="#hero" class="footer-link-top" aria-label="Back to top">↑ Top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -104,7 +104,12 @@ def test_contact_section_and_cta(page: Page, portfolio_url: str):
     get_in_touch = page.locator("#get-in-touch-btn")
     expect(get_in_touch).to_be_visible()
     href = get_in_touch.get_attribute("href")
-    assert href.startswith("mailto:")
+    assert href.startswith("mailto:adam.beranek10@gmail.com")
+
+    # Copy email button data attribute
+    copy_btn = page.locator("#copy-email-btn")
+    expect(copy_btn).to_be_visible()
+    expect(copy_btn).to_have_attribute("data-email", "adam.beranek10@gmail.com")
 
     # GitHub Link in footer / contact
     gh_profile = page.locator("a[href='https://github.com/Ad4mB3']")

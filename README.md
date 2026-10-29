@@ -119,6 +119,6 @@ pytest
 
 ## ⚙️ Customization
 
-- **Email Address**: To change your email address, update the `mailto:` href and `data-email` attribute in `index.html` (lines 284 & 297).
+- **Email Address**: Configured to `adam.beranek10@gmail.com` in `index.html` (lines 476 & 497) and `script.js`.
 - **Social / LinkedIn Links**: You can add your LinkedIn profile button alongside the GitHub button in the `#contact` section.
 - **Projects**: To add additional projects in the future, replicate the `<article class="project-card">` block inside `#projects`.
